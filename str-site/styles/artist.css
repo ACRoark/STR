@@ -1,0 +1,104 @@
+.container {
+  padding: 0 2rem;
+}
+
+.backgroundRed {
+  background-color: red;
+}
+.backgroundBlue {
+  background-color: blue;
+}
+.backgroundGreen {
+  background-color: green;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainCont {
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title {
+  font: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: underline 3px;
+  text-align: left;
+  padding: 5px;
+}
+
+.releaseCard {
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+
+.releaseCard:hover {
+  background-color: white;
+  color: black;
+  transition: 0.2s;
+}
+
+.mainContText {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.mainImgCont {
+  width: 75%;
+  /* display: flex; */
+  background-size: cover;
+  background-color: red;
+  height: 100vh;
+}
+
+.mainImg {
+  background-image: url("../tower-extended.png");
+}
+
+.icon {
+  padding: 5px;
+  display: flex;
+}
+
+.icon:hover {
+  background-color: white;
+  color: black;
+}
+
+.header {
+  font: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}

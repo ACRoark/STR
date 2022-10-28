@@ -1,0 +1,116 @@
+.container {
+  padding: 0 2rem;
+}
+
+.backgroundRed {
+  background-color: red;
+}
+.backgroundBlue {
+  background-color: blue;
+}
+.backgroundGreen {
+  background-color: green;
+}
+
+.mainCont {
+  display: flex;
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: underline 3px;
+  text-align: left;
+  padding: 5px;
+}
+
+.releaseCard {
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+
+.releaseCard:hover {
+  background-color: white;
+  color: black;
+  transition: 0.2s;
+}
+
+.blackCard {
+  display: flex;
+  margin-left: 15px;
+  max-width: 420px;
+  margin-top: 80px;
+  margin-left: 100px;
+  padding: 30px;
+  background-color: black;
+  flex-wrap: wrap;
+  /* background-size: cover; */
+}
+
+.mainImgCont {
+  width: 100vw;
+  /* display: flex; */
+  background-size: cover;
+  background-color: red;
+  height: 100vh;
+}
+
+.sirenContainer {
+  display: flex;
+  height: 529px;
+  width: 359px;
+  max-width: 359px;
+  background-color: blue;
+  background-size: cover;
+}
+
+.towerImg {
+  background-image: url("../tower-extended.png");
+}
+
+.sirenImg {
+  background-image: url("../str-siren-comp-black-bg.png");
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 5px;
+  display: flex;
+}
+
+.icon:hover {
+  background-color: white;
+  color: black;
+}
+
+.header {
+  font: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
